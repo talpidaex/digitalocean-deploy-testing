@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>MCT GROUP</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Oxygen:400,700" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="fonts/ionicons/css/ionicons.min.css">
+  <link rel="stylesheet" href="fonts/fontawesome/css/font-awesome.min.css">
+
+  <!-- Theme Style -->
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+  <%- include("partials/header") %>
+
+  <div class="top-shadow"></div>
+  <div class="inner-page">
+    <div class="slider-item" style="background-image: url('images/hero_1.jpg');">
+
+      <div class="container">
+        <div class="row slider-text align-items-center justify-content-center">
+          <div class="col-md-8 text-center col-sm-12 element-animate pt-5">
+            <h1 class="pt-5"><span>Referanslar</span></h1>
+            <p class="mb-5 w-75 pl-0">Çiçeği burnunda bir şirketiz</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <section>
+    <div class="container">
+      <div class="row" id="ref-row">
+        <% results.forEach(function(items){   %>
+        <div class="col-lg-4 col-sm-6 col-xs-6">
+          <ul class="list-group">
+            <li class="list-group-item-warning"><%=items.referans%></li>
+          </ul>
+        </div>
+        <% }); %>
+      </div>
+    </div>
+  </section>
+
+  <%-include("partials/footer"); %>
+  <!-- loader -->
+  <div id="loader" class="show fullscreen"><svg class="circular" width="48px" height="48px">
+      <circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" />
+      <circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#f4b214" /></svg></div>
+
+  <script src="js/jquery-3.2.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.fancybox.min.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>

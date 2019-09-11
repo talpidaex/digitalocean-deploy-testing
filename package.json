@@ -1,0 +1,15 @@
+{
+  "name": "keystronejs",
+  "version": "1.0.0",
+  "description": "CMS testing",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "oguzhanBayrak",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.7.1",
+    "keystone": "^4.2.1"
+  }
+}
