@@ -4,8 +4,7 @@ var Types = keystone.Field.Types;
 var Iletisim = new keystone.List('Iletisim', {
   map: {
     name: 'email'
-  },
-  nocreate: true
+  }
 });
 
 Iletisim.add({

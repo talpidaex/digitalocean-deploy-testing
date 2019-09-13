@@ -39,18 +39,16 @@
 *::after {
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
-#anasayfaResim{
-  width: 300px;
-    height: 200px;
-    display: block;
-    position: relative;
-    overflow: hidden;
-}
-#esgazLogo {
 
-   width:25%;
+#itfaiye_logo {
+   width:30%;
    float: left;
-   margin-left: 3rem;
+
+}
+#belediye_logo  {
+  margin-top: 11px;
+  float: right;
+  width:30%;
 }
 #sliderText{
   margin-top: auto;
@@ -7685,7 +7683,7 @@ header {
       font-size: 40px;
       color: #fff; }
     .slider-item .slider-text h1 {
-      font-size: 50px;
+      font-size: 75px;
       color: #fff;
       line-height: 1.2;
       font-weight: 300 !important;
@@ -7696,7 +7694,7 @@ header {
         .slider-item .slider-text h1 {
           font-size: 40px; } }
     .slider-item .slider-text p {
-      font-size: 20px;
+      font-size: 25px;
       line-height: 1.5;
       font-weight: 300;
       color: white;
