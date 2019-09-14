@@ -27,7 +27,7 @@
 
   <div class="top-shadow"></div>
   <div class="inner-page">
-    <div class="slider-item" style="background-image: url('images/about_1.jpg');">
+    <div class="slider-item" style="background-image: url('images/baca-slider.png');">
       <div class="container">
         <div class="row slider-text align-items-center justify-content-center">
           <div class="col-md-8 text-center col-sm-12 element-animate pt-5">
@@ -42,15 +42,15 @@
     <div class="container">
       <div class="row">
         <div class="col-md-6 mb-5 order-2">
-          <form action="/api/mail" method="post">
+          <form id="message_form" action="/api/mail" method="post">
             <div class="row">
               <div class="col-md-6 form-group">
                 <label for="name">İsim</label>
-                <input type="text" name="isim" class="form-control ">
+                <input id="isim" type="text" name="isim" class="form-control ">
               </div>
               <div class="col-md-6 form-group">
                 <label for="phone">Telefon</label>
-                <input type="text" name="telefon" id="phone" class="form-control ">
+                <input type="text" name="telefon" id="telefon" class="form-control ">
               </div>
             </div>
 
@@ -63,15 +63,18 @@
             <div class="row">
               <div class="col-md-12 form-group">
                 <label for="message">Mesajınızı yazınız</label>
-                <textarea name="mesaj" id="message" class="form-control " cols="30" rows="8"></textarea>
+                <textarea name="mesaj" id="mesaj" class="form-control " cols="30" rows="8"></textarea>
               </div>
             </div>
             <div class="row">
               <div class="col-md-6 form-group">
                 <input type="submit" value="Send Message" class="btn btn-primary px-3 py-3">
+                <span id="error_message" class="text-danger"></span>
+                <span id="success_message" class="text-success"></span>
               </div>
             </div>
           </form>
+
 
           <div class="embed-responsive  embed-responsive-16by9">
             <iframe class="embed-responsive-item"

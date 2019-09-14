@@ -187,6 +187,19 @@
     location.href = this.href;
   });
 
+  $("#message_form").submit(function(e) {
+    var isim = $("#isim").val();
+    var telefon = $("#telefon").val();
+    var email = $("#email").val();
+    var mesaj = $("#mesaj").val();
+    if (isim === '' || telefon === '' || email === '' || mesaj === '') {
+      alert("Eksik veya hatali mesaj girişi");
+    } else {
+      alert("Mesaj başarıyla iletildi!");
+    }
+  })
+
+
 
 
 })(jQuery);

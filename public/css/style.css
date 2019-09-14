@@ -7924,6 +7924,7 @@ header {
     color: #000; }
 
 .link-thumbnail {
+  margin-bottom: 2.4rem;
   display: block;
   position: relative;
   overflow: hidden;
