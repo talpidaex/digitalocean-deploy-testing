@@ -11,7 +11,7 @@ keystone.init({
   'name': 'Testing', //DB adı
   'auto update': true,
   'auth': true,
-  'port': 3000,
+  'port': 80,
   'user model': 'User', //kullanılacak collection adı
 
 });
