@@ -16,6 +16,5 @@ exports = module.exports = function(app) {
   app.get('/iletisim', routes.views.iletisim);
   app.get('/referanslar', routes.views.referanslar);
 
-
   app.post('/api/mail', routes.api.mail);
 };
