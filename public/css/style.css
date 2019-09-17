@@ -40,6 +40,10 @@
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
 
+#logolar{
+
+}
+
 #itfaiye_logo {
    width:30%;
    float: left;
@@ -7764,6 +7768,7 @@ header {
     font-weight: 300; }
 
 .heading {
+  font-size: 3rem;
   color: #000; }
   .heading.border-bottom {
     position: relative;
@@ -8026,7 +8031,7 @@ header {
 
 .block-41 .block-41-heading {
   text-align: center;
-  font-size: 50px;
+  font-size: 56px;
   line-height: 1.2; }
 
 @media (min-width: 768px) {
@@ -8267,8 +8272,9 @@ header {
       margin-bottom: 30px; } }
 
 .readmore {
+  color: black;
   text-transform: uppercase;
-  font-size: .9rem;
+  font-size: 1.1rem;
   padding-right: 20px;
   display: inline-block;
   position: relative; }
@@ -8281,6 +8287,7 @@ header {
     -ms-transform: translateY(-50%);
     transform: translateY(-50%); }
   .readmore:hover {
+    color: black;
     padding-right: 30px; }
 
 .frame,
