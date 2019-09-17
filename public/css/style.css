@@ -502,6 +502,12 @@ pre {
     .container {
       max-width: 1140px; } }
 
+  @media (max-width : 576px) {
+    #logolar {
+            margin-bottom: 120px;
+    }
+  }
+
 .container-fluid {
   width: 100%;
   padding-right: 15px;
