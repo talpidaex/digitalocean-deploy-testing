@@ -40,8 +40,8 @@
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
 
-#logolar{
-
+#logolar-slider1{
+ margin-top: 470px;
 }
 
 #itfaiye_logo {
@@ -504,7 +504,7 @@ pre {
 
   @media (max-width : 576px) {
     #logolar {
-        margin-bottom: 150px;
+
     }
   }
 
