@@ -12,7 +12,7 @@ exports = module.exports = function(app) {
   app.get('/', routes.views.anasayfa);
   app.get("/kurumsal", routes.views.kurumsal);
   app.get("/bacatemizleme", routes.views.bacatemizleme);
-  app.get("/ilaclama", routes.views.koltuktemizleme);
+  app.get("/ilaclama", routes.views.ilaclama);
   app.get('/iletisim', routes.views.iletisim);
   app.get('/referanslar', routes.views.referanslar);
 

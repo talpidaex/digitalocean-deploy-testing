@@ -1,5 +1,5 @@
 var keystone = require('keystone');
 
 module.exports = function(req, res) {
-  res.render("koltuktemizleme");
+  res.render("ilaclama");
 };
